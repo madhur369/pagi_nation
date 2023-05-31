@@ -28,3 +28,13 @@
 .main{
     padding: 50px 0px;
 }
+@media only screen and (max-width: 992px) {
+.row{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media only screen and (max-width: 600px) {
+.row{
+    grid-template-columns: 1fr 1fr;
+}
+}
